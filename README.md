@@ -1,0 +1,1 @@
+# NumGo_latex_class
