@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{NumGo}
+
+\begin{document}
+35 345\verb|\numcircled{467}|\numcircled{467}45
+
+ \verb|\numcircled[inverse]{35}|\numcircled{35} 4325
+ 
+  \verb|\numcircled[inverse][red][blue]{35}|\numcircled[red][blue]{35} gdaf
+  
+   \verb|\numcircled[inverse][red]{35}|\numcircled[red]{35}
+
+fgsg\numcircled{467}45
+   
+\newcounter{mycnt}
+\newcommand{\wcnt}{\numcircled{\stepcounter{mycnt}\themycnt}}
+
+\wcnt5\wcnt5\wcnt4\wcnt
+\end{document}
