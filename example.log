@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.18)  12 NOV 2018 16:59
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.18)  12 NOV 2018 17:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -505,9 +505,16 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
  ABD: EveryShipout initializing macros
-Overfull \hbox (32.23071pt too wide) in paragraph at lines 8--12
+Overfull \hbox (32.23071pt too wide) in paragraph at lines 7--11
 [][][]\TU/lmtt/m/n/10 \textcircled[black][white]{3}[] []\TU/lmr/m/n/10 4325 [][
 ]\TU/lmtt/m/n/10 \textcircled[black][white]{35}[]
+ []
+
+
+Overfull \hbox (3.92072pt too wide) in paragraph at lines 7--11
+[]\TU/lmr/m/n/10 4325 [][]\TU/lmtt/m/n/10 \textcircled[black][white]{2qg}[] []\
+TU/lmr/m/n/10 4325 [][]\TU/lmtt/m/n/10 \textcircled{2qg}[] []\TU/lmr/m/n/10 432
+5 
  []
 
 \c@mycnt=\count193
@@ -521,6 +528,6 @@ Here is how much of TeX's memory you used:
  23345 multiletter control sequences out of 15000+600000
  532354 words of font info for 26 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,6n,57p,423b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,6n,57p,423b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on example.pdf (1 page).
