@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.18)  12 NOV 2018 16:35
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.18)  12 NOV 2018 16:59
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -505,8 +505,13 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
  ABD: EveryShipout initializing macros
+Overfull \hbox (32.23071pt too wide) in paragraph at lines 8--12
+[][][]\TU/lmtt/m/n/10 \textcircled[black][white]{3}[] []\TU/lmr/m/n/10 4325 [][
+]\TU/lmtt/m/n/10 \textcircled[black][white]{35}[]
+ []
+
 \c@mycnt=\count193
- [1
+[1
 
 ] (./example.aux) ) 
 Here is how much of TeX's memory you used:
