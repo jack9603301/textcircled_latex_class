@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.18)  12 NOV 2018 17:01
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.18)  13 NOV 2018 01:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -524,7 +524,7 @@ TU/lmr/m/n/10 4325 [][]\TU/lmtt/m/n/10 \textcircled{2qg}[] []\TU/lmr/m/n/10 432
 Here is how much of TeX's memory you used:
  19503 strings out of 492969
  398357 string characters out of 6137283
- 402446 words of memory out of 5000000
+ 402445 words of memory out of 5000000
  23345 multiletter control sequences out of 15000+600000
  532354 words of font info for 26 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
