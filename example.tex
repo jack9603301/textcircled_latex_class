@@ -1,19 +1,22 @@
 \documentclass{article}
-\usepackage{NumGo}
+\usepackage{textcircled}
 
 \begin{document}
-35 345\verb|\numcircled{467}|\numcircled{467}45
+\color{red}
+35 345\verb|\numcircled{467}|\textcircled{467}45
 
- \verb|\numcircled[inverse]{35}|\numcircled{35} 4325
+ \verb|\numcircled[inverse]{3}|\textcircled[black][white]{3} 4325
+   \verb|\numcircled[inverse]{35}|\textcircled[black][white]{35} 4325
+  \verb|\numcircled[inverse]{qg}|\textcircled[black][white]{2gd} 4325
  
-  \verb|\numcircled[inverse][red][blue]{35}|\numcircled[red][blue]{35} gdaf
+  \verb|\numcircled[inverse][red][blue]{35}|\textcircled[red][blue]{35} gdaf
   
-   \verb|\numcircled[inverse][red]{35}|\numcircled[red]{35}
+   \verb|\numcircled[inverse][red]{35}|\textcircled[red]{35}
 
-fgsg\numcircled{467}45
+fgsg\textcircled{467}45
    
 \newcounter{mycnt}
-\newcommand{\wcnt}{\numcircled{\stepcounter{mycnt}\themycnt}}
+\newcommand{\wcnt}{\textcircled{\stepcounter{mycnt}\themycnt}}
 
-\wcnt5\wcnt5\wcnt4\wcnt
+\wcnt5\wcnt5\wcnt4\wcnt\wcnt
 \end{document}
