@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.18)  16 NOV 2018 23:33
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.6.18)  16 NOV 2018 23:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1358,9 +1358,9 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 \textcircled@numwidth@two=\skip64
 \textcircled@numwidth@three=\skip65
 .................................................
-. LaTeX info: "xparse/redefine-command"
+. LaTeX info: "xparse/define-command"
 . 
-. Redefining command \textcircled with sig. 'O{white} O{black} m' on line 27.
+. Defining command \tikztextcircle with sig. 'O{white} O{black} m' on line 27.
 .................................................
 ) (./example.aux)
 \openout1 = `example.aux'.
@@ -1515,10 +1515,10 @@ Overfull \hbox (144.20691pt too wide) in paragraph at lines 15--16
 
 ] (./example.aux) ) 
 Here is how much of TeX's memory you used:
- 25477 strings out of 492969
- 569745 string characters out of 6137283
- 594372 words of memory out of 5000000
- 29176 multiletter control sequences out of 15000+600000
+ 25478 strings out of 492969
+ 569765 string characters out of 6137283
+ 594381 words of memory out of 5000000
+ 29177 multiletter control sequences out of 15000+600000
  532548 words of font info for 38 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,6n,69p,423b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
