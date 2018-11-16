@@ -3,6 +3,7 @@
 
 \RequirePackage{tikz}
 \RequirePackage{xparse}
+\RequirePackage{calc}
 
 \newlength{\textcircled@textwidth}%
 \newlength{\textcircled@textheight}%
@@ -16,10 +17,10 @@
     \settowidth{\textcircled@textwidth}{#3}% 获取文本宽度
     \tikz[baseline,outer sep=0pt,inner sep=0pt]{%
         \pgfmathparse{%
-            ifthenelse(\textcircled@textwidth < \textcircled@numwidth@two, 1, ifthenelse(\textcircled@textwidth < \textcircled@numwidth@three, 0.75, 0.5))%
+            ifthenelse(\textcircled@textwidth < \textcircled@numwidth@two, 0.8, ifthenelse(\textcircled@textwidth < \textcircled@numwidth@three, 0.6, 0.4))%
         }%
         \let\hfs\pgfmathresult%
-        \draw[fill=#1] (0,\textcircled@textheight/2) circle (\textcircled@numwidth@two/2+0.42ex);%
+        \draw[fill=#1] (0,\textcircled@textheight/2) circle (\textcircled@textheight/2+0.5ex);%
         \node[text=#2] at (0,\textcircled@textheight/2) {%
             \makebox[0em][c]{\scalebox{\hfs}[1]{#3}}%
         };%
