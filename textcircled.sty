@@ -9,11 +9,10 @@
 \newlength{\textcircled@numwidth@two}%
 \newlength{\textcircled@numwidth@three}%
 
-\settoheight{\textcircled@textheight}{8}%
-\settowidth{\textcircled@numwidth@two}{88} % 获取标准2位数宽度
-\settowidth{\textcircled@numwidth@three}{888} % 获取标准3位数宽度
-
 \DeclareDocumentCommand{\textcircled}{O{white} O{black} m}{%
+    \settoheight{\textcircled@textheight}{8}%
+    \settowidth{\textcircled@numwidth@two}{88}%获取标准2位数宽度
+    \settowidth{\textcircled@numwidth@three}{888}%获取标准3位数宽度
     \settowidth{\textcircled@textwidth}{#3}% 获取文本宽度
     \tikz[baseline,outer sep=0pt,inner sep=0pt]{%
         \pgfmathparse{%
