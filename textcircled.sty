@@ -20,7 +20,6 @@
             ifthenelse(\textcircled@textwidth < \textcircled@numwidth@two, 0.8, ifthenelse(\textcircled@textwidth < \textcircled@numwidth@three, 0.6, 0.5))%
         }%
         \let\hfs\pgfmathresult%
-        %\node[circle,draw,fill=#1,text=#2]{#3}%
         \draw[fill=#1] (0,\textcircled@textheight/2) circle (\textcircled@textheight/2+0.3ex);%
         \node[text=#2] at (0,\textcircled@textheight/2) {%
             \makebox[0em][c]{\scalebox{\hfs}[\hfs]{#3}}%
